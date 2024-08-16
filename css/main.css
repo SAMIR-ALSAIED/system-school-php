@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: "Zain", sans-serif;
+
+
+}
+
+
+body {
+    font: 16px arial;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Cairo", sans-serif;
+   
+}
+
+h1,
+h2 {
+    text-align: center
+}
+
+h2 {
+    color:#7899e0;
+  
+  
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    box-shadow: 7px 7px 40px #000000a3;
+}
+/* 
+.heading {
+    text-align: center;
+    background-color: #1a80bc;
+    padding: 10px;
+}
+
+.heading h1 {
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+} */
+
+.navbar {
+    background-color: #7899e0;
+    margin-top: 10px;
+    margin-left: 250px;
+    border-radius: 16px;
+    direction: rtl;
+    width: 55%;
+    height: 50px;
+}
+
+.navbar ul {
+    font-size: 0;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 13px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(79, 78, 78);
+   
+}
+
+.main {
+    padding: 25px;
+    min-height: 400px;
+}
+
+.main h2 {
+    margin: 0 0 10px;
+
+}
+
+.main table th {
+    color: #fff;
+    background-color: #5e9adf;
+
+}
+
+
+.main table,
+th {
+    width: 100%;
+    background-color: #ececec;
+    margin: 10px 0 20px;
+    direction: rtl;
+    text-align: center;
+
+}
+
+.main table th {
+    width: 130px;
+    height: 35px;
+}
+
+.main table td {
+    background-color: #ffffff;
+    color: #333;
+    height: 43px;
+}
+
+.main table td a {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 4px 20px;
+    color: #efeaea;
+    background-color:#2e72d7;
+    text-decoration: none;
+    border-radius: 3px;
+    
+
+}
+
+.main table td a:nth-child(2) {
+    background-color: #dc3545;
+    margin: 0 10px 0 5px;
+    color: #efeaea;
+
+}
+
+.main .post-form {
+    width:50%;
+    height: 430px;
+    padding: 25px;
+    margin: 0 auto 10px;
+    background-color: #d6dbdf;
+    border-radius: 20px;
+    direction: rtl;
+    border-radius: 30px;
+   
+}
+
+.main .post-form .form-group {
+    margin: 0 0 15px;
+}
+
+.main .post-form .form-group label {
+    width: 30%;
+    display: inline-block;
+    font-weight: bolder;
+    text-align: center;
+ 
+    
+}
+
+
+.main .post-form .form-group input,
+.main .post-form .form-group select {
+    font-size: 16px;
+    width: 66%;
+    height: 40px;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+
+
+
+.main .post-form .submit {
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 6px 66px;
+    color: #fff;
+    background-color: #1a80bc;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 23% 0 0;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 75%;
+    height: 43px;
+   
+}
+
+.main .post-form .submit:nth-child(2) {
+    background-color: #bc1a3a;
+}
+
+
+.main .post-form .submit:hover {
+    background-color: #156da0;
+ 
+}
+
+
+
+
